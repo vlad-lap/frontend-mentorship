@@ -5,6 +5,14 @@
     <title>Title</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="main.js"></script>
+    <style>
+        .some-class {
+            color: blue;
+        }
+    </style>
+    <script>
+        console.log('Inline script executed');
+    </script>
 </head>
 <body>
     <h1>Page header</h1>
@@ -16,8 +24,8 @@
     <main>
         <p>Page content 1</p>
         <p class="paragraph">Page content 2</p>
-        <p class="paragraph red-paragraph">Page content 3</p>
-        <p class="paragraph red-paragraph">Page content 4</p>
+        <p class="paragraph">Page content 3</p>
+        <p class="paragraph" id="some-id">Page content 4</p>
         <p>
             <button>Click me</button>
         </p>
