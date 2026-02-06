@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <script type="text/javascript" src="main.js"></script>
     <style>
         .some-class {
@@ -15,11 +15,10 @@
     </script>
 </head>
 <body>
-    <h1>Page header</h1>
+    <h1 id="home">Page header</h1>
     <nav>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="#home">Home</a>
+        <a href="display.html">Display</a>
     </nav>
     <main>
         <p>Page content 1</p>
@@ -27,7 +26,7 @@
         <p class="paragraph">Page content 3</p>
         <p class="paragraph" id="some-id">Page content 4</p>
         <p>
-            <button>Click me</button>
+            <button class="button">Click me</button>
         </p>
         <p>
             <label for="name">Enter your name</label>
