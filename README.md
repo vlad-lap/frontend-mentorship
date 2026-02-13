@@ -13,7 +13,6 @@ and via shared links.
 ## Goal
 
 - Build a strong understanding of how the web works at a fundamental level
-- Remove the “magic” perception of frontend development
 - Establish a solid base for working with Angular and modern frontend frameworks
 
 ---
