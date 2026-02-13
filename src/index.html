@@ -2,39 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <script type="text/javascript" src="main.js"></script>
-    <style>
-        .some-class {
-            color: blue;
-        }
-    </style>
-    <script>
-        console.log('Inline script executed');
-    </script>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/pricing.css" />
 </head>
 <body>
-    <h1 id="home">Page header</h1>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="display.html">Display</a>
-    </nav>
+    <header>
+        <h1>Page header</h1>
+        <nav>
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#heroes">Heroes</a>
+            <a class="nav-link" href="#features">
+                Features
+                <div class="badge">NEW</div>
+            </a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
     <main>
-        <p>Page content 1</p>
-        <p class="paragraph">Page content 2</p>
-        <p class="paragraph">Page content 3</p>
-        <p class="paragraph" id="some-id">Page content 4</p>
-        <p>
-            <button class="button">Click me</button>
-        </p>
-        <p>
-            <label for="name">Enter your name</label>
-            <input type="text" id="name" />
-        </p>
-        <p>
-            <div class="demo">Block example</div>
-        </p>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This section is a start page.</p>
+        </section>
+        <section id="heroes">
+            <h2>Heroes</h2>
+            <p>This section highlights our heroes.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <p>This section describes the features of our product.</p>
+        </section>
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="tariffs-container">
+                <div class="tariff-card">
+                    <h3>Basic</h3>
+                    <p>$9.99/month</p>
+                    <button>Buy</button>
+                </div>
+                <div class="tariff-card">
+                    <h3>Standard</h3>
+                    <p>$19.99/month</p>
+                    <button>Buy</button>
+                </div>
+                <div class="tariff-card" id="premium">
+                    <h3>Premium</h3>
+                    <p>$29.99/month</p>
+                    <button>Buy</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This section contains contact details.</p>
+        </section>
     </main>
     <footer>Page footer</footer>
 </body>

@@ -1,0 +1,19 @@
+.tariffs-container {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tariff-card {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1 0 300px;
+}
+
+#premium {
+    flex-grow: 3;
+}
